@@ -1,0 +1,82 @@
+@font-face {
+    font-family: GE_SS_Two_Light;
+    src: url(../font/GE_SS_Two_Light.otf);
+}
+.container{
+   display: grid;
+background-color: #e1e9f5;
+min-height: 100vh;
+margin: 0;
+    padding: 0;
+font-family: GE_SS_Two_Light;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+background-color: #f4f7fe;
+    height: 10vh;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    /* height: 3vh;
+    font-size: large;
+    padding: 10px;
+    margin-top:25px; */
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.footerDiv{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #182c44;
+    height:35vh;
+}
+table{
+    width: 80vh;
+    background-color: #182c44;
+    color:#e1e9f5;
+    font-size: small;
+}
+.btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: -60px;
+    background-color: #182c44;
+    color: #e1e9f5;
+    width: 120px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 9px;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    font-family: GE_SS_Two_Light;
+}
+.footer {
+    display: flex;
+    align-items: flex-end;
+    background-color: #182c44;
+
+}
+.mya{
+ font-size: large;
+  margin-top: 25px;
+  padding-left: 25px;
+}
+
+.twitter{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
+}
